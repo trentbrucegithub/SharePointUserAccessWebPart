@@ -377,6 +377,54 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tutorials/getting-started/" title="Getting started with client-side web parts" class="md-nav__link">
+      Getting started with client-side web parts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tutorials/migrate-datatables/" title="Migrate jQuery and DataTables solution built using Script Editor Web Part to SharePoint Framework" class="md-nav__link">
+      Migrate jQuery and DataTables solution built using Script Editor Web Part to SharePoint Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tutorials/migrate-fullcalendar/" title="Migrate jQuery and FullCalendar solution built using Script Editor Web Part to SharePoint Framework" class="md-nav__link">
+      Migrate jQuery and FullCalendar solution built using Script Editor Web Part to SharePoint Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tutorials/api-scopes/" title="Consuming APIs secured with Azure Active Directory within SharePoint Framework" class="md-nav__link">
+      Consuming APIs secured with Azure Active Directory within SharePoint Framework
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -586,6 +634,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#merging-your-existing-github-projects-with-this-repository" class="md-nav__link">
+    Merging your Existing Github Projects with this Repository
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signing-the-cla" class="md-nav__link">
+    Signing the CLA
+  </a>
+  
+</li>
+      
       
       
       
@@ -629,6 +691,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#merging-your-existing-github-projects-with-this-repository" class="md-nav__link">
+    Merging your Existing Github Projects with this Repository
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signing-the-cla" class="md-nav__link">
+    Signing the CLA
+  </a>
+  
+</li>
+      
       
       
       
@@ -645,7 +721,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/docs/contributing/pullrequest.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/SharePoint/sp-dev-fx-webparts/tree/Docs/docs/contributing/pullrequest.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="submitting-a-pull-request-pr">Submitting a Pull Request (PR)<a class="headerlink" href="#submitting-a-pull-request-pr" title="Permanent link">&para;</a></h1>
@@ -666,13 +742,17 @@
   that relates to your submission. You don't want to duplicate effort.</li>
 <li>Make sure you have a link in your local cloned fork to the <a href="https://github.com/SharePoint/sp-dev-fx-webparts">SharePoint/sp-dev-fx-webparts</a>:</li>
 </ul>
-<p>```shell
-  # check if you have a remote pointing to the Microsoft repo:
-  git remote -v</p>
-<p># if you see a pair of remotes (fetch &amp; pull) that point to https://github.com/SharePoint/sp-dev-fx-webparts, you're ok... otherwise you need to add one</p>
-<p># add a new remote named "upstream" and point to the Microsoft repo
+<div class="codehilite"><pre><span></span>  <span class="c1"># check if you have a remote pointing to the Microsoft repo:</span>
+  git remote -v
+
+  <span class="c1"># if you see a pair of remotes (fetch &amp; pull) that point to https://github.com/SharePoint/sp-dev-fx-webparts, you&#39;re ok... otherwise you need to add one</span>
+
+  <span class="c1"># add a new remote named &quot;upstream&quot; and point to the Microsoft repo</span>
+
   git remote add upstream https://github.com/SharePoint/sp-dev-fx-webparts.git
-  ```</p>
+</pre></div>
+
+
 <ul>
 <li>Make your changes in a new git branch:</li>
 </ul>
@@ -682,55 +762,66 @@
 <li>Ensure your fork is updated and not behind the upstream <strong>sp-dev-fx-webparts</strong> repo. Refer to these resources for more information on syncing your repo:</li>
 <li><a href="https://help.github.com/articles/syncing-a-fork/">GitHub Help: Syncing a Fork</a></li>
 <li><a href="http://www.andrewconnell.com/blog/keep-your-forked-git-repo-updated-with-changes-from-the-original-upstream-repo">Keep Your Forked Git Repo Updated with Changes from the Original Upstream Repo</a></li>
-<li>
-<p>For a quick cheat sheet:</p>
-<p>```shell</p>
-<h1 id="assuming-you-are-in-the-folder-of-your-locally-cloned-fork">assuming you are in the folder of your locally cloned fork....<a class="headerlink" href="#assuming-you-are-in-the-folder-of-your-locally-cloned-fork" title="Permanent link">&para;</a></h1>
-<p>git checkout master</p>
-<h1 id="assuming-you-have-a-remote-named-upstream-pointing-official-sp-dev-fx-webparts-repo">assuming you have a remote named <code>upstream</code> pointing official <strong>sp-dev-fx-webparts</strong> repo<a class="headerlink" href="#assuming-you-have-a-remote-named-upstream-pointing-official-sp-dev-fx-webparts-repo" title="Permanent link">&para;</a></h1>
-<p>git fetch upstream</p>
-<h1 id="update-your-local-master-to-be-a-mirror-of-whats-in-the-main-repo">update your local master to be a mirror of what's in the main repo<a class="headerlink" href="#update-your-local-master-to-be-a-mirror-of-whats-in-the-main-repo" title="Permanent link">&para;</a></h1>
-<p>git pull --rebase upstream master</p>
-<h1 id="switch-to-your-branch-where-you-are-working-say-react-taxonomypicker">switch to your branch where you are working, say "react-taxonomypicker"<a class="headerlink" href="#switch-to-your-branch-where-you-are-working-say-react-taxonomypicker" title="Permanent link">&para;</a></h1>
-<p>git checkout react-taxonomypicker</p>
-<h1 id="update-your-branch-to-update-its-fork-point-to-the-current-tip-of-master-put-your-changes-on-top-of-it">update your branch to update it's fork point to the current tip of master &amp; put your changes on top of it<a class="headerlink" href="#update-your-branch-to-update-its-fork-point-to-the-current-tip-of-master-put-your-changes-on-top-of-it" title="Permanent link">&para;</a></h1>
-<p>git rebase master
-```</p>
-</li>
-<li>
-<p>Push your branch to GitHub:</p>
-</li>
+<li>For a quick cheat sheet:</li>
 </ul>
-<p><code>shell
-  git push origin react-taxonomypicker</code></p>
+<div class="codehilite"><pre><span></span>    <span class="c1"># assuming you are in the folder of your locally cloned fork....</span>
+    git checkout master
+
+    <span class="c1"># assuming you have a remote named `upstream` pointing official **sp-dev-fx-webparts** repo</span>
+    git fetch upstream
+
+    <span class="c1"># update your local master to be a mirror of what&#39;s in the main repo</span>
+    git pull --rebase upstream master
+
+    <span class="c1"># switch to your branch where you are working, say &quot;react-taxonomypicker&quot;</span>
+    git checkout react-taxonomypicker
+
+    <span class="c1"># update your branch to update it&#39;s fork point to the current tip of master &amp; put your changes on top of it</span>
+    git rebase master
+</pre></div>
+
+
+<ul>
+<li>Push your branch to GitHub:</li>
+</ul>
+<div class="codehilite"><pre><span></span>  git push origin react-taxonomypicker
+</pre></div>
+
+
 <h2 id="merging-your-existing-github-projects-with-this-repository">Merging your Existing Github Projects with this Repository<a class="headerlink" href="#merging-your-existing-github-projects-with-this-repository" title="Permanent link">&para;</a></h2>
 <p>If the sample you wish to contribute is stored in your own Github repository, you can use the following steps to merge it with the this repository:</p>
 <ul>
 <li>Fork the <code>sp-dev-fx-webparts</code> repository from GitHub</li>
-<li>
-<p>Create a local git repository</p>
-<p><code>shell
-md sp-dev-fx-webparts
-cd sp-dev-fx-webparts
-git init</code></p>
-</li>
-<li>
-<p>Pull your forked copy of sp-dev-fx-webparts into your local repository</p>
-<p><code>shell
-git remote add origin https://github.com/yourgitaccount/sp-dev-fx-webparts.git
-git pull origin dev</code></p>
-</li>
-<li>
-<p>Pull your other project from github into the samples folder of your local copy of sp-dev-fx-webparts</p>
-<p><code>shell
-git subtree add --prefix=samples/projectname https://github.com/yourgitaccount/projectname.git master</code></p>
-</li>
-<li>
-<p>Push the changes up to your forked repository</p>
-<p><code>shell
-git push origin dev</code></p>
-</li>
+<li>Create a local git repository</li>
 </ul>
+<div class="codehilite"><pre><span></span>    md sp-dev-fx-webparts
+    <span class="nb">cd</span> sp-dev-fx-webparts
+    git init
+</pre></div>
+
+
+<ul>
+<li>Pull your forked copy of sp-dev-fx-webparts into your local repository</li>
+</ul>
+<div class="codehilite"><pre><span></span>    git remote add origin https://github.com/yourgitaccount/sp-dev-fx-webparts.git
+    git pull origin dev
+</pre></div>
+
+
+<ul>
+<li>Pull your other project from github into the samples folder of your local copy of sp-dev-fx-webparts</li>
+</ul>
+<div class="codehilite"><pre><span></span>    git subtree add --prefix<span class="o">=</span>samples/projectname https://github.com/yourgitaccount/projectname.git master
+</pre></div>
+
+
+<ul>
+<li>Push the changes up to your forked repository</li>
+</ul>
+<div class="codehilite"><pre><span></span>    git push origin dev
+</pre></div>
+
+
 <h2 id="signing-the-cla">Signing the CLA<a class="headerlink" href="#signing-the-cla" title="Permanent link">&para;</a></h2>
 <p>Before we can accept your pull requests you will be asked to sign electronically Contributor License Agreement (CLA), which is prerequisite for any contributions to PnP repository. This will be one time process, so for any future contributions you will not be asked to re-sign anything. After the CLA has been signed, our PnP core team members will have a look on your submission for final verification of the submission. Please do not delete your development branch until the submission has been closed.</p>
 <p>You can find Microsoft CLA from the following address - https://cla.microsoft.com. </p>

@@ -381,10 +381,87 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Tutorials
+      </label>
+    
     <a href="./" title="Tutorials" class="md-nav__link md-nav__link--active">
       Tutorials
     </a>
     
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#build-and-run-the-tutorials" class="md-nav__link">
+    Build and run the tutorials
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getting-started/" title="Getting started with client-side web parts" class="md-nav__link">
+      Getting started with client-side web parts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="migrate-datatables/" title="Migrate jQuery and DataTables solution built using Script Editor Web Part to SharePoint Framework" class="md-nav__link">
+      Migrate jQuery and DataTables solution built using Script Editor Web Part to SharePoint Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="migrate-fullcalendar/" title="Migrate jQuery and FullCalendar solution built using Script Editor Web Part to SharePoint Framework" class="md-nav__link">
+      Migrate jQuery and FullCalendar solution built using Script Editor Web Part to SharePoint Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="api-scopes/" title="Consuming APIs secured with Azure Active Directory within SharePoint Framework" class="md-nav__link">
+      Consuming APIs secured with Azure Active Directory within SharePoint Framework
+    </a>
   </li>
 
         
@@ -590,6 +667,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#build-and-run-the-tutorials" class="md-nav__link">
+    Build and run the tutorials
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -600,7 +693,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/docs/tutorials/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/SharePoint/sp-dev-fx-webparts/tree/Docs/docs/tutorials/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">&para;</a></h1>
@@ -612,6 +705,39 @@
 <li><a href="https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/tutorials/tutorial-migrate-fullcalendar">Tutorial: Migrate jQuery and FullCalendar solution built using Script Editor Web Part to SharePoint Framework</a></li>
 <li><a href="https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/tutorials/api-scopes">Consuming APIs secured with Azure Active Directory within SharePoint Framework</a></li>
 </ul>
+<h2 id="build-and-run-the-tutorials">Build and run the tutorials<a class="headerlink" href="#build-and-run-the-tutorials" title="Permanent link">&para;</a></h2>
+<p>To build and run this client-side project, you will need to clone and build the tutorials project.</p>
+<p>Clone this repo by executing the following command in your console:</p>
+<div class="codehilite"><pre><span></span>git clone https://github.com/SharePoint/sp-dev-fx-webparts.git
+</pre></div>
+
+
+<p>Navigate to the cloned repo folder which should be the same as the repo name:</p>
+<div class="codehilite"><pre><span></span>cd sp-dev-fx-webparts
+</pre></div>
+
+
+<p>Navigate to the <code>tutorials</code> folder:</p>
+<div class="codehilite"><pre><span></span>cd tutorials
+</pre></div>
+
+
+<p>Navigate to the <code>specific web part</code> folder:</p>
+<div class="codehilite"><pre><span></span>cd &#39;subfolder&#39;
+</pre></div>
+
+
+<p>Now run the following command to install the npm packages:</p>
+<div class="codehilite"><pre><span></span>npm install
+</pre></div>
+
+
+<p>This will install the required npm packages and depedencies to build and run the client-side project.</p>
+<p>Once the npm packages are installed, run the command to preview your web parts in SharePoint Workbench:</p>
+<div class="codehilite"><pre><span></span>gulp serve
+</pre></div>
+
+
 <p><img src="https://telemetry.sharepointpnp.com/sp-dev-fx-webparts/docs/tutorials" /></p>
                 
                   
@@ -648,13 +774,13 @@
           </a>
         
         
-          <a href="../samples/framework/" title="By Framework" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="getting-started/" title="Getting started with client-side web parts" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                By Framework
+                Getting started with client-side web parts
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
