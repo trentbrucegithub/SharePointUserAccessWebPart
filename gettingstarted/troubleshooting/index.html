@@ -705,17 +705,19 @@
 <p>Make sure to read the <strong>Minimal Path to Awesome</strong> section of the <strong>README.md</strong> file associated with each sample to make sure that you follow all the required steps.</p>
 <h2 id="use-spfx-doctor">Use SPFx Doctor<a class="headerlink" href="#use-spfx-doctor" title="Permanent link">&para;</a></h2>
 <p>If you have any doubts whether your environment is properly configured to run a sample, we recommend you use the <strong><a href="https://pnp.github.io/office365-cli/cmd/spfx/doctor/">Office 365 CLI SPFx Doctor</a></strong> to analyze your environment and the project for compatibility issues.</p>
-<p>To use it, follow these steps:
-1. If you haven't done so already, install Office 365 CLI on your workstation by using the following command:
+<p>To use it, follow these steps:</p>
+<ol>
+<li>If you haven't done so already, install Office 365 CLI on your workstation by using the following command:
     <code>bash
-    npm i -g @pnp/office365-cli</code>
-1. Change your current directory to the the solution's root directory
-1. Launch the Office 365 CLI:
+    npm i -g @pnp/office365-cli</code></li>
+<li>Change your current directory to the the solution's root directory</li>
+<li>Launch the Office 365 CLI:
     <code>bash
-    office365</code>
-1. Run the <code>spfx doctor</code> command on the solution:
+    office365</code></li>
+<li>Run the <code>spfx doctor</code> command on the solution:
     <code>bash
-    spfx doctor</code></p>
+    spfx doctor</code></li>
+</ol>
 <p>You can also verify if your environment is properly configured to work with your version of SharePoint by specifying the environment you wish to target with <code>--env</code>, followed by either <code>sp2016</code>, <code>sp2019</code>, or <code>spo</code>:</p>
 <div class="codehilite"><pre><span></span>spfx doctor --env sp2019
 </pre></div>
@@ -724,23 +726,25 @@
 <h2 id="upgrade-the-sample">Upgrade the sample<a class="headerlink" href="#upgrade-the-sample" title="Permanent link">&para;</a></h2>
 <p>If the version of the sample you want to use is not compatible with your SharePoint or SPFx version, you can try upgrading the sample to meet your needs.</p>
 <p>We recommend that you use the <strong><a href="https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/">Office 365 CLI SPFx Project Upgrade</a></strong> to analyze the project and give you detailed upgrade steps.</p>
-<p>To do so, follow these steps:
-1. If you haven't done so already, install Office 365 CLI on your workstation by using the following command:
+<p>To do so, follow these steps:</p>
+<ol>
+<li>If you haven't done so already, install Office 365 CLI on your workstation by using the following command:
     <code>bash
-    npm i -g @pnp/office365-cli</code>
-1. (Optional) install the <a href="https://aka.ms/codetour">CodeTour</a> Visual Studio Code extension
-1. Change your current directory to the the solution's root directory
-1. Launch the Office 365 CLI:
+    npm i -g @pnp/office365-cli</code></li>
+<li>(Optional) install the <a href="https://aka.ms/codetour">CodeTour</a> Visual Studio Code extension</li>
+<li>Change your current directory to the the solution's root directory</li>
+<li>Launch the Office 365 CLI:
     <code>bash
-    office365</code>
-1. If you installed CodeTour, run the <code>spfx doctor</code> command on the solution:
+    office365</code></li>
+<li>If you installed CodeTour, run the <code>spfx doctor</code> command on the solution:
     <code>bash
-    spfx project upgrade --output tour</code>
-1. If you didn't install CodeTour, you can use <code>json</code>, <code>text</code>, or <code>md</code> as the <code>--output</code> parameter. For example, to produce a text report, you would use:
+    spfx project upgrade --output tour</code></li>
+<li>If you didn't install CodeTour, you can use <code>json</code>, <code>text</code>, or <code>md</code> as the <code>--output</code> parameter. For example, to produce a text report, you would use:
     <code>bash
-    spfx project upgrade --output text --outputFile "upgrade.txt"</code>
-1. If you installed CodeTour, you can open the project and launch the <strong>Project upgrade</strong> tour from the <strong>CodeTour</strong> pane and follow the steps. When prompted to type commands, you can simply click on the commands to run them in your Visual Studio Code terminal.
-1. If you used another type of <code>--output</code>, open the file that was produced by the project upgrade analysis and follow the steps manually.</p>
+    spfx project upgrade --output text --outputFile "upgrade.txt"</code></li>
+<li>If you installed CodeTour, you can open the project and launch the <strong>Project upgrade</strong> tour from the <strong>CodeTour</strong> pane and follow the steps. When prompted to type commands, you can simply click on the commands to run them in your Visual Studio Code terminal.</li>
+<li>If you used another type of <code>--output</code>, open the file that was produced by the project upgrade analysis and follow the steps manually.</li>
+</ol>
 <p>Note that you can also specify which version you wish to target by specifying a <code>--toVersion</code> parameter. For more information, visit the <a href="https://pnp.github.io/office365-cli/cmd/spfx/project/project-upgrade/">project upgrade</a> on the <a href="https://pnp.github.io/office365-cli">Office 365 CLI</a> site.</p>
 <blockquote>
 <p>If you have upgraded an older sample to the most current version of SPFx, feel free to create a pull request and share with the rest of the community. Follow the <a href="https://github.com/pnp/sp-dev-fx-webparts/blob/master/.github/CONTRIBUTING.md">contribution guidance</a> if you have any questions.</p>
