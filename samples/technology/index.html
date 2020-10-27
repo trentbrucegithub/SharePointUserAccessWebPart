@@ -573,12 +573,14 @@
 <p>To learn more about how to use these samples, please refer to our <a href="../../gettingstarted/">getting started</a> section.</p>
 <p><div class="well">
   <div class="button-group filters-button-group">
-   <button class="button is-checked" data-filter="*">All</button>
-  <button class="button" data-filter="[data-technology*='MSGraph']">Microsoft Graph</button>
-<button class="button" data-filter="[data-technology*='AzureAppInsights']">Azure Application Insights</button>
-<button class="button" data-filter="[data-technology*='AzureBotServices']">Azure Bot Services</button>
-<button class="button" data-filter="[data-technology*='AzureCognitiveServices']">Azure Cognitive Services</button>
-<button class="button" data-filter="[data-technology*='AzureFunctions']">Azure Functions</button>
+   <button class="button is-checked" data-filter="[data-technology='*']*">All</button>
+<button class="button" data-filter="[data-technology~='AzureAppInsights']">Azure Application Insights</button>
+<button class="button" data-filter="[data-technology~='AzureBotServices']">Azure Bot Services</button>
+<button class="button" data-filter="[data-technology~='AzureCognitiveServices']">Azure Cognitive Services</button>
+<button class="button" data-filter="[data-technology~='AzureFunctions']">Azure Functions</button>
+<button class="button" data-filter="[data-technology~='GitHub']">GitHub</button>
+<button class="button" data-filter="[data-technology~='MSGraph']">Microsoft Graph</button>
+<button class="button" data-filter="[data-technology~='PnPJs']">PnPjs</button>
   </div>
 </div></p>
 <div class="grid">
@@ -1053,7 +1055,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.11.0" data-modified="2020-09-13" data-title="SPUPS Photo Sync" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-photo-sync/assets/SPUPS_Photo_Sync_1.gif" data-technology=MSGraph, AzureFunctions>
+<div class="sample-item" data-framework="React" data-spfx="1.11.0" data-modified="2020-09-13" data-title="SPUPS Photo Sync" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-photo-sync/assets/SPUPS_Photo_Sync_1.gif" data-technology=MSGraph AzureFunctions>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
@@ -1391,7 +1393,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.11.0" data-modified="2020-08-12" data-title="Smart Profile Photo Editor" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-smart-profile-photo-editor/assets/WebPartPreview.gif" data-technology=MSGraph, AzureCognitiveServices>
+<div class="sample-item" data-framework="React" data-spfx="1.11.0" data-modified="2020-08-12" data-title="Smart Profile Photo Editor" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-smart-profile-photo-editor/assets/WebPartPreview.gif" data-technology=MSGraph AzureCognitiveServices>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
@@ -3367,7 +3369,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.9.1" data-modified="2019-10-30" data-title="MS Teams Channels and Tabs from Modern Team site" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-teams-tabs-pnpjs/assets/react-teams-tabs-pnpjs-webpart-animated.gif" data-technology=MSGraph, PnPJs>
+<div class="sample-item" data-framework="React" data-spfx="1.9.1" data-modified="2019-10-30" data-title="MS Teams Channels and Tabs from Modern Team site" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-teams-tabs-pnpjs/assets/react-teams-tabs-pnpjs-webpart-animated.gif" data-technology=MSGraph PnPJs>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
@@ -3575,7 +3577,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.9.0" data-modified="2019-08-14" data-title="Site Provisioning Manager Web Part" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-site-provisioning-manager/assets/screenshot.gif" data-technology=MSGraph, AzureFunctions>
+<div class="sample-item" data-framework="React" data-spfx="1.9.0" data-modified="2019-08-14" data-title="Site Provisioning Manager Web Part" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-site-provisioning-manager/assets/screenshot.gif" data-technology=MSGraph AzureFunctions>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
@@ -3627,7 +3629,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.8.2" data-modified="2019-07-23" data-title="Birthdays Web Part" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-birthdays/assets/birthdays.gif" data-technology=MSGraph, AzureFunctions>
+<div class="sample-item" data-framework="React" data-spfx="1.8.2" data-modified="2019-07-23" data-title="Birthdays Web Part" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-birthdays/assets/birthdays.gif" data-technology=MSGraph AzureFunctions>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
@@ -4355,7 +4357,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.7.1" data-modified="2019-01-09" data-title="Using PnPJS with MS Graph" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-graph-pnpjs/assets/summary.png" data-technology=MSGraph, PnPJs>
+<div class="sample-item" data-framework="React" data-spfx="1.7.1" data-modified="2019-01-09" data-title="Using PnPJS with MS Graph" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-graph-pnpjs/assets/summary.png" data-technology=MSGraph PnPJs>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
@@ -4407,7 +4409,7 @@
 </div>
 
 
-<div class="sample-item" data-framework="React" data-spfx="1.7.1" data-modified="2019-01-01" data-title="Chart Control Samples" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-chartcontrol/assets/WebPartList.png" data-technology=MSGraph, GitHub>
+<div class="sample-item" data-framework="React" data-spfx="1.7.1" data-modified="2019-01-01" data-title="Chart Control Samples" data-thumbnail="https://github.com/pnp/sp-dev-fx-webparts/raw/master/samples/react-chartcontrol/assets/WebPartList.png" data-technology=MSGraph GitHub>
   <div class="sample">
     <div class="sample-video"><i class="ms-Icon ms-Icon--VideoSolid" aria-hidden="true"></i></div>
     <div class="sample-img">
