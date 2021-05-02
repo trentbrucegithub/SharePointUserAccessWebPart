@@ -3450,7 +3450,15 @@
         "alt": "Banner Web Part"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -8116,7 +8124,15 @@
         "alt": "Links web part"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -8432,7 +8448,15 @@
         "alt": "LOB Integration web part"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -10909,7 +10933,15 @@
         "alt": "People Directory"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -11001,7 +11033,15 @@
         "alt": "Personal Calendar"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -11043,7 +11083,15 @@
         "alt": "Personal Contacts"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -11085,7 +11133,15 @@
         "alt": "Personal Email"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -11176,7 +11232,15 @@
         "alt": "Personal Tasks"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -11975,7 +12039,15 @@
         "alt": "Recent Contacts"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -12017,7 +12089,15 @@
         "alt": "Recently Used Documents"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -12059,7 +12139,15 @@
         "alt": "Recently Visited Sites"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -12821,7 +12909,15 @@
         "alt": "Site Information"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -13574,7 +13670,15 @@
         "alt": "Stock Information"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -14656,7 +14760,15 @@
         "alt": "Tiles"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -15365,7 +15477,15 @@
         "alt": "Weather Information"
       }
     ],
-    "authors": [],
+    "authors": [
+      {
+        "gitHubAccount": "eoverfield",
+        "company": "PixelMill",
+        "pictureUrl": "https://github.com/eoverfield.png",
+        "name": "Eric Overfield",
+        "twitter": "EricOverfield"
+      }
+    ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
@@ -15690,7 +15810,6 @@
         "gitHubAccount": "eoverfield",
         "pictureUrl": "https://github.com/eoverfield.png",
         "name": "Eric Overfield"
-
       }
     ],
     "references": [
