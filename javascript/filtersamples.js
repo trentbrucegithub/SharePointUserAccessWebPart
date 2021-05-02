@@ -1,6 +1,8 @@
 // external js: isotope.pkgd.js
 $(document).ready(function () {
 
+  var jsonPath = "https://pnp.github.io/sp-dev-fx-webparts/samples.json";
+
   // init Isotope
   var $grid = $('.grid').isotope({
     itemSelector: '.sample-item',
