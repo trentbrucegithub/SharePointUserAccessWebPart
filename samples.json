@@ -10568,7 +10568,7 @@
         "value": "1.10.0"
       },
       {
-        "key": "SPFX-OFFICEADDIN",
+        "key": "SPFX-OUTLOOKADDIN",
         "value": "true"
       }
     ],
@@ -10626,7 +10626,7 @@
         "value": "1.10.0"
       },
       {
-        "key": "SPFX-OFFICEADDIN",
+        "key": "SPFX-OUTLOOKADDIN",
         "value": "true"
       }
     ],
@@ -12520,7 +12520,7 @@
         "value": "1.10.0"
       },
       {
-        "key": "SPFX-OFFICEADDIN",
+        "key": "SPFX-OUTLOOKADDIN",
         "value": "true"
       }
     ],
