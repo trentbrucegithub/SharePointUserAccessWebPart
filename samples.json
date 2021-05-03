@@ -986,6 +986,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.9.1"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldSliderWithCallout, PropertyFieldToggleWithCallout, PropertyFieldListPicker"
       }
     ],
     "thumbnails": [
@@ -1596,6 +1600,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.3.4"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldColorPicker, PropertyFieldSpinButton"
       }
     ],
     "thumbnails": [
@@ -2178,6 +2186,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": " PropertyFieldListPicker, PropertyFieldTermPicker, Placeholder, ListView, FileTypeIcon"
       }
     ],
     "thumbnails": [
@@ -2391,6 +2403,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.10.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -2452,6 +2468,10 @@
       {
         "key": "SPFX-TEAMSTAB",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle, Placeholder"
       }
     ],
     "thumbnails": [
@@ -2541,6 +2561,10 @@
       {
         "key": "SPFX-TEAMSTAB",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "Placeholder, WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -2614,6 +2638,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.10.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "Placeholder"
       }
     ],
     "thumbnails": [
@@ -2692,6 +2720,10 @@
       {
         "key": "SPFX-SUPPORTSTHEMEVARIANTS",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldListPicker, PropertyFieldViewPicker, ropertyFieldCodeEditorLanguages, PropertyPaneWebPartInformation, Placeholder"
       }
     ],
     "thumbnails": [
@@ -2843,6 +2875,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyPaneWebPartInformation, PropertyFieldListPicker, PropertyFieldViewPicker, PropertyFieldCodeEditorLanguages"
       }
     ],
     "thumbnails": [
@@ -2892,6 +2928,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.9.1"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "ListView"
       }
     ],
     "thumbnails": [
@@ -2941,6 +2981,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.9.1"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "ListView, WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -3180,6 +3224,10 @@
       {
         "key": "SPFX-FULLPAGEAPP",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "Placeholder, ChartControl"
       }
     ],
     "thumbnails": [
@@ -3478,6 +3526,10 @@
       {
         "key": "SPFX-TEAMSTAB",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldNumber, WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -3925,6 +3977,10 @@
       {
         "key": "SPFX-TEAMSTAB",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldDateTimePicker, PeoplePicker, Map"
       }
     ],
     "thumbnails": [
@@ -4137,6 +4193,10 @@
       {
         "key": "SPFX-SUPPORTSTHEMEVARIANTS",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldNumber, PropertyFieldSliderWithCallout, PropertyFieldTextWithCallout, PropertyFieldToggleWithCallout, Placeholder, WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -4273,13 +4333,22 @@
     ],
     "metadata": [
       {
+        "key": "PNPCONTROLS",
+        "value": "ChartControl"
+      },
+      {
         "key": "CLIENT-SIDE-DEV",
         "value": "React"
       },
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle, Placeholder, ChartControl"
       }
+
     ],
     "thumbnails": [
       {
@@ -4487,6 +4556,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.10.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle, PeoplePicker"
       }
     ],
     "thumbnails": [
@@ -5135,6 +5208,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldColorPicker, PropertyFieldListPicker, PropertyFieldMultiSelect, PropertyFieldOrder, WebPartTitle, Placeholder"
       }
     ],
     "thumbnails": [
@@ -5564,6 +5641,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.10.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle, Placeholder, FilePicker"
       }
     ],
     "thumbnails": [
@@ -7449,6 +7530,10 @@
       {
         "key": "SPFX-TEAMSTAB",
         "value": "false"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle, Placeholder, FilePicker"
       }
     ],
     "thumbnails": [
@@ -8325,6 +8410,10 @@
       {
         "key": "SPFX-SUPPORTSTHEMEVARIANTS",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "IFrameDialog, FileTypeIcon, PropertyFieldCollectionData, PropertyFieldSitePicker, PropertyFieldNumber, Placeholder, PropertyFieldMultiSelect, PropertyPaneWebPartInformation"
       }
     ],
     "thumbnails": [
@@ -11260,6 +11349,10 @@
       {
         "key": "SPFX-TEAMSPERSONALAPP",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldListPicker, PropertyFieldToggleWithCallout, PropertyPaneWebPartInformation, PropertyFieldPeoplePicker"
       }
     ],
     "thumbnails": [
@@ -11321,6 +11414,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.10.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "FieldTextRenderer, FieldDateRenderer, FieldLookupRenderer, FieldUrlRenderer, FieldTaxonomyRenderer"
       }
     ],
     "thumbnails": [
@@ -11664,6 +11761,10 @@
       {
         "key": "SPFX-TEAMSTAB",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -11774,6 +11875,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.9.1"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldColorPicker"
       }
     ],
     "thumbnails": [
@@ -13273,6 +13378,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -13567,6 +13676,10 @@
       {
         "key": "SPFX-TEAMSPERSONALAPP",
         "value": "true"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -13753,6 +13866,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PropertyFieldPeoplePicker, Placeholder"
       }
     ],
     "thumbnails": [
@@ -14204,6 +14321,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "PeoplePicker"
       }
     ],
     "thumbnails": [
@@ -15717,6 +15838,10 @@
       {
         "key": "SPFX-VERSION",
         "value": "1.11.0"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "WebPartTitle, Placeholder"
       }
     ],
     "thumbnails": [
