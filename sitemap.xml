@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/samples/spfx/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/samples/compatibility/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/gettingstarted/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/gettingstarted/troubleshooting/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/contributing/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/contributing/issues/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/contributing/forking/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/contributing/sample/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pnp.github.io/sp-dev-fx-webparts/contributing/pullrequest/</loc>
-     <lastmod>2021-05-10</lastmod>
+     <lastmod>2021-05-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
