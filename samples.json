@@ -1,5 +1,123 @@
 [
   {
+    "name": "pnp-sp-dev-spfx-web-parts-react-list-items-menu-sp2019",
+    "source": "pnp",
+    "title": "List Items Menu (SP2019 Version)",
+    "shortDescription": "Allows user create a navigation menu , grouped by any column of document library. When the user clicks on the header it dynamically load documents.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-list-items-menu-sp2019",
+    "longDescription": [
+      "Allows user create a navigation menu , grouped by any column of document library. When the user clicks on the header it dynamically load documents."
+    ],
+    "creationDateTime": "2021-05-06",
+    "updateDateTime": "2021-05-06",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.4.1"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-list-items-menu-sp2019/assets/react-list-item-menu.gif",
+        "alt": "List Items Menu"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-list-items-menu-sp2019/assets/react-list-item-menu.png?raw=true",
+        "alt": "List Items Menu"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-list-items-menu-sp2019/assets/react-list-item-menu2.png?raw=true",
+        "alt": "List Items Menu"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "joaojmendes",
+        "company": "Storm Technology Ltd",
+        "pictureUrl": "https://github.com/joaojmendes.png",
+        "name": "Jo\u00E3o Mendes",
+        "twitter": "joaojmendes"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
+    "name": "pnp-sp-dev-spfx-web-parts-react-news-banner",
+    "source": "pnp",
+    "title": "News Banner",
+    "shortDescription": "Shows news information as a Banner, this information come from a list defined in any site.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-news-banner",
+    "longDescription": [
+      "This web part shows news information as a Banner, this information come from a list defined in any site, this web part can be installed on 2019, and SharePoint Online."
+    ],
+    "creationDateTime": "2021-05-06",
+    "updateDateTime": "2021-05-06",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.4.1"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-news-banner/assets/NewsBanner.gif",
+        "alt": "Web Part Preview"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-news-banner/assets/NewsBanner.png?raw=true",
+        "alt": "List Items Menu"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "joaojmendes",
+        "company": "Storm Technology Ltd",
+        "pictureUrl": "https://github.com/joaojmendes.png",
+        "name": "Jo\u00E3o Mendes",
+        "twitter": "joaojmendes"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
     "name": "pnp-sp-dev-spfx-web-parts-react-groups-teams",
     "source": "pnp",
     "title": "All Microsoft 365 Groups and Teams",
@@ -4326,21 +4444,26 @@
       {
         "gitHubAccount": "mohammadamer",
         "company": "Atea Global Services",
-        "pictureUrl": "https://avatars.githubusercontent.com/u/19314043?s=460\u0026u=79acb7fd0ad466e1040ddd8a739fa93385018b81\u0026v=4",
+        "pictureUrl": "https://avatars.githubusercontent.com/u/19314043?s=460&u=79acb7fd0ad466e1040ddd8a739fa93385018b81&v=4",
         "name": "Mohammed Amer",
         "twitter": "Mohammad3mer"
+      },
+      {
+        "gitHubAccount": "Eli-Schei",
+        "name": "Eli H. Schei",
+        "pictureUrl": "https://github.com/Eli-Schei"
       }
     ],
     "references": [
       {
         "name": "Build your first SharePoint client-side web part",
         "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       },
       {
         "name": "Building Microsoft Teams Tabs using SharePoint Framework",
         "description": "Starting with SharePoint Framework v1.8, you can build tabs for Microsoft Teams with the SharePoint Framework tooling and use SharePoint as a host for your solutions. As part of the SharePoint Framework v1.10 you can also publish your solution as Microsoft Teams personal app.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/integrate-with-teams-introduction"
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/integrate-with-teams-introduction"
       }
     ]
   },
