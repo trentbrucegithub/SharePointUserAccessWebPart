@@ -5495,7 +5495,7 @@
       "This web part provides easy way to render SharePoint custom list in data table view with all the necessary features."
     ],
     "creationDateTime": "2021-03-01",
-    "updateDateTime": "2021-04-10",
+    "updateDateTime": "2021-06-02",
     "products": [
       "SharePoint",
       "Office"
@@ -5507,13 +5507,38 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.11.0"
+        "value": "1.12.1"
       },
       {
         "key": "PNPCONTROLS",
         "value": "PropertyFieldColorPicker, PropertyFieldListPicker, PropertyFieldMultiSelect, PropertyFieldOrder, WebPartTitle, Placeholder"
       }
     ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-datatable/assets/preview.png",
+        "alt": "Data Table"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "chandaniprajapati",
+        "company": "",
+        "pictureUrl": "https://github.com/chandaniprajapati.png",
+        "name": "Chandani Prajapati",
+        "twitter": "Chandani_SPD"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
     "thumbnails": [
       {
         "type": "image",
