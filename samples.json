@@ -471,7 +471,7 @@
   {
     "name": "pnp-sp-dev-spfx-web-parts-react-follow-document",
     "source": "pnp",
-    "title": "react-follow-document",
+    "title": "Follow Document",
     "shortDescription": "react-follow-document",
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-follow-document",
     "longDescription": [
