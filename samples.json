@@ -9,8 +9,8 @@
       "This sample shows a web part to show the first few sentences of an article in a SharePoint site, so that the article can be looked at a glance.",
       "The idea is based of the At a glance section of a news in the BBC news app."
     ],
-    "creationDateTime": "2021-04-02",
-    "updateDateTime": "2021-04-02",
+    "creationDateTime": "2021-09-07",
+    "updateDateTime": "2021-09-07",
     "products": [
       "SharePoint",
       "Office"
