@@ -264,14 +264,20 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.11.0"
+        "value": "1.12.1"
       }
     ],
     "thumbnails": [
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-my-events",
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-my-events/assets/preview.gif",
+        "alt": "react-my-events"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-my-events/assets/preview.png",
         "alt": "react-my-events"
       }
     ],
@@ -3391,7 +3397,7 @@
         "value": "WebPartTitle"
       }
     ],
-     "thumbnails": [
+    "thumbnails": [
       {
         "type": "image",
         "order": 100,
@@ -5145,7 +5151,8 @@
         "pictureUrl": "https://avatars.githubusercontent.com/u/19314043?s=460&u=79acb7fd0ad466e1040ddd8a739fa93385018b81&v=4",
         "name": "Mohammed Amer",
         "twitter": "Mohammad3mer"
-      }, {
+      },
+      {
         "gitHubAccount": "Eli-Schei",
         "name": "Eli H. Schei",
         "pictureUrl": "https://github.com/Eli-Schei"
@@ -15181,7 +15188,7 @@
         "company": "Cognizant",
         "pictureUrl": "https://github.com/ravi16a87.png",
         "name": "Ravi Kulkarni",
-        "twitter":"RaviKul16a87"
+        "twitter": "RaviKul16a87"
       },
       {
         "gitHubAccount": "SmitaNachan",
