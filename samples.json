@@ -16425,7 +16425,7 @@
       "The Tree Organization Web Part shows the Organization Chart of the or the team, the web part reads infomation from current user to build the Organization Chart."
     ],
     "creationDateTime": "2021-02-28",
-    "updateDateTime": "2021-10-05",
+    "updateDateTime": "2021-10-28",
     "products": [
       "SharePoint",
       "Office"
@@ -16441,7 +16441,7 @@
       },
       {
         "key": "PNPCONTROLS",
-        "value": "PropertyFieldNumber, PeoplePicker"
+        "value": "PropertyFieldNumber, PeoplePicker, WebPartTitle"
       }
     ],
     "thumbnails": [
@@ -16484,12 +16484,6 @@
         "pictureUrl": "https://github.com/petkir.png",
         "name": "Peter Paul Kirschner",
         "twitter": "petkir_at"
-      },
-      {
-        "gitHubAccount": "tom-daly",
-        "company": "SoHo Dragon",
-        "pictureUrl": "https://github.com/tom-daly.png",
-        "name": "Thomas Daly"
       }
     ],
     "references": [
