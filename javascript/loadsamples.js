@@ -56,7 +56,7 @@ function loadSample(sample, filter) {
               break;
           }
         });
-
+console.log("Modified:", sample.updateDateTime);
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
         var modified = new Date(sample.updateDateTime).toString().substr(4).substr(0, 12);
