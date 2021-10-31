@@ -4,10 +4,9 @@
 var jsonPath = "https://pnp.github.io/sp-dev-fx-webparts/samples.json";
 if (window.location.host.toLowerCase() !== "pnp.github.io") {
   // When serving locally there is no /teams-dev-samples in the path
-  jsonPath = window.location.origin + "/samples.json"
+  jsonPath = window.location.origin + "/samples.json";
+  console.log(`Reading samples from ${jsonPath}`);
 }
-console.log(`Reading samples from ${jsonPath}`);
-
 
 /**
  * Reads a sample metadata and returns a pre-populated HTML element
@@ -57,7 +56,6 @@ function loadSample(sample, filter) {
           }
         });
 const dtModified = new Date(sample.updateDateTime)
-console.log("Modified:", sample.updateDateTime, dtModified, moment(dtModified).toISOString());
 
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
