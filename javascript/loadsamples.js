@@ -56,10 +56,10 @@ function loadSample(sample, filter) {
               break;
           }
         });
-console.log("Modified:", sample.updateDateTime, new Date(sample.updateDateTime));
+console.log("Modified:", sample.updateDateTime, new Date(sample.updateDateTime), new Date(sample.updateDateTime).toString().substr(0, 10));
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
-        var modified = new Date(sample.updateDateTime).toString().substr(4).substr(0, 12);
+        var modified = new Date(sample.updateDateTime).toString().substr(0, 10);
         var authors = sample.authors;
         var authorsList = "";
         var authorAvatars = "";
