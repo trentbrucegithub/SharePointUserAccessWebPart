@@ -56,10 +56,12 @@ function loadSample(sample, filter) {
               break;
           }
         });
-console.log("Modified:", sample.updateDateTime, new Date(sample.updateDateTime), new Date(sample.updateDateTime).toString().substr(0, 10));
+const dtModified = new Date(sample.updateDateTime)
+console.log("Modified:", sample.updateDateTime, dtModified, `${dtModified.getFullYear()}-${dtModified.getMonth()}-${dtModified.getDate()}`);
+
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
-        var modified = new Date(sample.updateDateTime).toString().substr(0, 10);
+        var modified = `${dtModified.getFullYear()}-${dtModified.getMonth()}-${dtModified.getDate()}`;
         var authors = sample.authors;
         var authorsList = "";
         var authorAvatars = "";
