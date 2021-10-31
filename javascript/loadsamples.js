@@ -57,11 +57,11 @@ function loadSample(sample, filter) {
           }
         });
 const dtModified = new Date(sample.updateDateTime)
-console.log("Modified:", sample.updateDateTime, dtModified, `${dtModified.getFullYear()}-${dtModified.getMonth()}-${dtModified.getDate()}`);
+console.log("Modified:", sample.updateDateTime, dtModified, dtModified.format('yyyy-mm-dd'));
 
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
-        var modified = `${dtModified.getFullYear()}-${dtModified.getMonth()}-${dtModified.getDate()}`; // I know, I know... but I'm trying to avoid using moment.js
+        var modified = dtModified.format('yyyy-mm-dd');
         var authors = sample.authors;
         var authorsList = "";
         var authorAvatars = "";
