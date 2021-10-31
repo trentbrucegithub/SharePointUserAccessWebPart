@@ -897,7 +897,7 @@
       "Allows user create a navigation menu , grouped by any column of document library. When the user clicks on the header it dynamically load documents."
     ],
     "creationDateTime": "2021-05-06",
-    "updateDateTime": "2021-05-06",
+    "updateDateTime": "2021-10-25",
     "products": [
       "SharePoint",
       "Office"
