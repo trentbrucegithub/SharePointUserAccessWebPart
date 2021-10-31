@@ -61,7 +61,7 @@ console.log("Modified:", sample.updateDateTime, dtModified, `${dtModified.getFul
 
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
-        var modified = `${dtModified.getFullYear()}-${dtModified.getMonth()}-${dtModified.getDate()}`;
+        var modified = `${dtModified.getFullYear()}-${dtModified.getMonth()}-${dtModified.getDate()}`; // I know, I know... but I'm trying to avoid using moment.js
         var authors = sample.authors;
         var authorsList = "";
         var authorAvatars = "";
@@ -112,7 +112,7 @@ console.log("Modified:", sample.updateDateTime, dtModified, `${dtModified.getFul
 
         // Build the HTML to insert
         var $items = $(`
-<a class="sample-thumbnail" href="${sample.url}" data-modified="${sample.modified}" data-title="${title}" data-keywords="${keywords}" data-tags="${tags}" data-framework="${framework}" data-spfx="${SPFxVersion}" data-outlook="${outlookCompatible}" data-teams="${teamsCompatible}" data-sp2016="${compatible2016}" data-sp2019="${compatible2019}" data-pnpcontrols="${pnpControls}"
+<a class="sample-thumbnail" href="${sample.url}" data-modified="${modified}" data-title="${title}" data-keywords="${keywords}" data-tags="${tags}" data-framework="${framework}" data-spfx="${SPFxVersion}" data-outlook="${outlookCompatible}" data-teams="${teamsCompatible}" data-sp2016="${compatible2016}" data-sp2019="${compatible2019}" data-pnpcontrols="${pnpControls}"
 >
   <div class="sample-inner">
     <div class="sample-preview">
