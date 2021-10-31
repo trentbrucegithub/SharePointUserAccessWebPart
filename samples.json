@@ -913,7 +913,7 @@
       "Web part pulls all Microsoft 365 Groups and Teams that the logged in user has access to view."
     ],
     "creationDateTime": "2021-05-06",
-    "updateDateTime": "2021-08-01",
+    "updateDateTime": "2021-10-08",
     "products": [
       "SharePoint",
       "Office"
@@ -925,7 +925,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.10.0"
+        "value": "1.12.1"
       }
     ],
     "thumbnails": [
@@ -970,7 +970,7 @@
       {
         "name": "Build your first SharePoint client-side web part",
         "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
-        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       }
     ]
   },
@@ -13757,7 +13757,7 @@
       "This SPFx Outlook Add-In lets users save any email attachments to a OneDrive folder."
     ],
     "creationDateTime": "2020-10-04",
-    "updateDateTime": "2020-10-04",
+    "updateDateTime": "2021-10-19",
     "products": [
       "SharePoint",
       "Office"
@@ -13769,7 +13769,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.10.0"
+        "value": "1.13.0"
       },
       {
         "key": "SPFX-OUTLOOKADDIN",
@@ -13809,12 +13809,12 @@
       {
         "name": "Build your first SharePoint client-side web part",
         "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       },
       {
         "name": "Create Outlook Add-ins using SharePoint Framework",
         "description": "Introduced in SharePoint Framework v1.10, you can implement an Outlook Web App add-in with the SharePoint Framework and use SharePoint as a host for your solution.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/office-addins-create"
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/office-addins-create"
       }
     ]
   },
