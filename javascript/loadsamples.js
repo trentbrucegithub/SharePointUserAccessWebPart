@@ -57,11 +57,11 @@ function loadSample(sample, filter) {
           }
         });
 const dtModified = new Date(sample.updateDateTime)
-console.log("Modified:", sample.updateDateTime, dtModified, `${dtModified.getFullYear()}-${dtModified.getMonth().toString().padStart(2, '0')}-${dtModified.getDate().toString().padStart(2, '0')}`);
+console.log("Modified:", sample.updateDateTime, dtModified, moment(dtModified).toISOString());
 
         var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
         var compatible2016 = SPFxVersion == "GA";
-        var modified = `${dtModified.getMonth().toString().padStart(2, '0')}-${dtModified.getDate().toString().padStart(2, '0')}`;
+        var modified = moment(dtModified).toISOString();
         var authors = sample.authors;
         var authorsList = "";
         var authorAvatars = "";
