@@ -126,7 +126,7 @@ console.log("Modified:", sample.updateDateTime, dtModified, `${dtModified.getFul
         ${authorAvatars}
         <div class="activity-details">
           <span class="sample-author" title="${authorsList}">${authorName}</span>
-          <span class="sample-date">Modified ${sample.modified.toLocaleDateString()}</span>
+          <span class="sample-date">Modified ${dtModified.toLocaleDateString()}</span>
         </div>
       </div>
     </div>
