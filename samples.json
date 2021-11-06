@@ -16922,8 +16922,20 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-webcam/screens/4.png?raw=true",
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-webcam/assets/4.png?raw=true",
         "alt": "Web/Mobile Camera Demo"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-webcam/assets/5.png?raw=true",
+        "alt": "Taking a photo"
+      },
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-webcam/assets/3.png?raw=true",
+        "alt": "Options available"
       }
     ],
     "authors": [
