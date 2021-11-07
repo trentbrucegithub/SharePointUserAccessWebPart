@@ -3310,6 +3310,13 @@
         "pictureUrl": "https://github.com/patrick-rodgers.png",
         "name": "Patrick Rodgers",
         "twitter": "mediocrebowler"
+      },
+      {
+        "gitHubAccount": "gautamdsheth",
+        "company": "Rapid Circle",
+        "pictureUrl": "https://github.com/gautamdsheth.png",
+        "name": "Gautam Sheth",
+        "twitter": "gautamdsheth"
       }
     ],
     "references": [
