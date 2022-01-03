@@ -1,52 +1,112 @@
 [
   {
+    "name": "pnp-sp-dev-spfx-web-parts-react-taxonomy-file-explorer",
+    "source": "pnp",
+    "title": "Taxonomy File Explorer",
+    "shortDescription": "This solution renders a given Termset as a Tree and incorporates files similar than a folder structure in file explorer.",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-taxonomy-file-explorer",
+    "longDescription": [
+      "This solution renders a given Termset as a Tree and incorporates files similar than a folder structure in file explorer."
+    ],
+    "creationDateTime": "2021-12-26",
+    "updateDateTime": "2021-12-26",
+    "products": [
+      "SharePoint",
+      "Office"
+    ],
+    "metadata": [
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.13.0"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-taxonomy-file-explorer/assets/03Link.gif",
+        "alt": "Linking to a file"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-taxonomy-file-explorer/assets/04Move.gif",
+        "alt": "Moving a file"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-taxonomy-file-explorer/assets/04Move.gif",
+        "alt": "Copying a file"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mmsharepoint",
+        "pictureUrl": "https://github.com/mmsharepoint.png",
+        "name": "Markus Moeller"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
+    ]
+  },
+  {
     "name": "pnp-sp-dev-spfx-web-parts-react-teams-graph-upload-as-pdf",
     "source": "pnp",
     "title": "Teams Graph Upload as PDF",
     "shortDescription": "This SPFx web part (or Teams Tab) enables a user to upload a supported file type via drag and drop while the uploaded file will be converted as PDF",
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-teams-graph-upload-as-pdf",
     "longDescription": [
-        "This SPFx web part (or Teams Tab) enables a user to upload a supported file type via drag and drop while the uploaded file will be converted as PDF"
+      "This SPFx web part (or Teams Tab) enables a user to upload a supported file type via drag and drop while the uploaded file will be converted as PDF"
     ],
     "creationDateTime": "2020-11-10",
     "updateDateTime": "2021-11-08",
     "products": [
-        "SharePoint",
-        "Office"
+      "SharePoint",
+      "Office"
     ],
     "metadata": [
-        {
-            "key": "CLIENT-SIDE-DEV",
-            "value": "React"
-        },
-        {
-            "key": "SPFX-VERSION",
-            "value": "1.13.0"
-        }
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.13.0"
+      }
     ],
     "thumbnails": [
-        {
-            "type": "image",
-            "order": 100,
-            "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-teams-graph-upload-as-pdf/assets/UploadAnimated.gif",
-            "alt": "Web Part Preview"
-        }
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-teams-graph-upload-as-pdf/assets/UploadAnimated.gif",
+        "alt": "Web Part Preview"
+      }
     ],
     "authors": [
-        {
-            "gitHubAccount": "mmsharepoint",
-            "pictureUrl": "https://github.com/mmsharepoint.png",
-            "name": "Markus Moeller"
-        }
+      {
+        "gitHubAccount": "mmsharepoint",
+        "pictureUrl": "https://github.com/mmsharepoint.png",
+        "name": "Markus Moeller"
+      }
     ],
     "references": [
-        {
-            "name": "Build your first SharePoint client-side web part",
-            "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
-            "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
-        }
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
     ]
-},
+  },
   {
     "name": "pnp-sp-dev-spfx-web-parts-react-document-links-accordion",
     "source": "pnp",
@@ -357,52 +417,52 @@
     "shortDescription": "This sample web part shows the list of your applications registered in Azure AD along with their associated client secret/certificate expiration date.",
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-graph-app-secret-expiration",
     "longDescription": [
-        "This sample web part shows the list of your applications registered in Azure AD along with their associated client secret/certificate expiration date."
+      "This sample web part shows the list of your applications registered in Azure AD along with their associated client secret/certificate expiration date."
     ],
     "creationDateTime": "2021-09-17",
     "updateDateTime": "2021-11-04",
     "products": [
-        "SharePoint",
-        "Office"
+      "SharePoint",
+      "Office"
     ],
     "metadata": [
-        {
-            "key": "CLIENT-SIDE-DEV",
-            "value": "React"
-        },
-        {
-            "key": "SPFX-VERSION",
-            "value": "1.12.1"
-        },
-        {
-            "key": "PNPCONTROLS",
-            "value": "Pagination"
-        }
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "React"
+      },
+      {
+        "key": "SPFX-VERSION",
+        "value": "1.12.1"
+      },
+      {
+        "key": "PNPCONTROLS",
+        "value": "Pagination"
+      }
     ],
     "thumbnails": [
-        {
-            "type": "image",
-            "order": 100,
-            "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-graph-app-secret-expiration/assets/react-graph-app-secret-expiration-animated.gif",
-            "alt": "Preview of web part"
-        }
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-graph-app-secret-expiration/assets/react-graph-app-secret-expiration-animated.gif",
+        "alt": "Preview of web part"
+      }
     ],
     "authors": [
-        {
-            "gitHubAccount": "a1mery ",
-            "pictureUrl": "https://github.com/a1mery.png",
-            "name": "Aimery Thomas",
-            "twitter": "aimery_thomas"
-        }
+      {
+        "gitHubAccount": "a1mery ",
+        "pictureUrl": "https://github.com/a1mery.png",
+        "name": "Aimery Thomas",
+        "twitter": "aimery_thomas"
+      }
     ],
     "references": [
-        {
-            "name": "Build your first SharePoint client-side web part",
-            "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
-            "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
-        }
+      {
+        "name": "Build your first SharePoint client-side web part",
+        "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+      }
     ]
-},
+  },
   {
     "name": "pnp-sp-dev-spfx-web-parts-react-at-a-glance",
     "source": "pnp",
@@ -836,8 +896,7 @@
         "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       }
     ]
-  }
-,
+  },
   {
     "name": "pnp-sp-dev-spfx-web-parts-react-private-libraries",
     "source": "pnp",
@@ -2613,7 +2672,8 @@
         "order": 102,
         "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/assets/14c3ec26-0121-11e7-8be8-65fbcca32b62.png",
         "alt": "Modern Calendar"
-      },{
+      },
+      {
         "type": "image",
         "order": 103,
         "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/assets/14c4333e-0121-11e7-9bf1-3117651222d3.png",
@@ -5424,7 +5484,8 @@
         "pictureUrl": "https://avatars.githubusercontent.com/u/19314043?s=460&u=79acb7fd0ad466e1040ddd8a739fa93385018b81&v=4",
         "name": "Mohammed Amer",
         "twitter": "Mohammad3mer"
-      }, {
+      },
+      {
         "gitHubAccount": "Eli-Schei",
         "name": "Eli H. Schei",
         "pictureUrl": "https://github.com/Eli-Schei"
@@ -11876,7 +11937,7 @@
       },
       {
         "type": "video",
-        "url":"https://www.youtube.com/watch?v=Xgna1iH55k8",
+        "url": "https://www.youtube.com/watch?v=Xgna1iH55k8",
         "alt": "Using Microsoft Graph Toolkit to easily access files in Sites and in OneDrive"
       }
     ],
