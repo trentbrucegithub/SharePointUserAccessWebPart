@@ -1026,17 +1026,16 @@
   {
     "name": "pnp-sp-dev-spfx-web-parts-react-follow-document",
     "source": "pnp",
-    "title": "Follow Document",
+    "title": "react-follow-document",
     "shortDescription": "react-follow-document",
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-follow-document",
     "longDescription": [
       "identify/follow user key documents from all Tenant and easily access them in Modern Pages and Microsoft Teams"
     ],
     "creationDateTime": "2021-06-21",
-    "updateDateTime": "2021-11-25",
+    "updateDateTime": "2022-01-13",
     "products": [
-      "SharePoint",
-      "Office"
+      "SharePoint"
     ],
     "metadata": [
       {
@@ -1052,8 +1051,14 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-follow-document/assets/FollowDocumentSample1.gif?raw=true",
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-follow-document/Assets/FollowDocumentSample1.gif?raw=true",
         "alt": "react-follow-document"
+      },
+      {
+        "type": "video",
+        "order": 101,
+        "url": "https://www.youtube.com/embed/Wx7nqlP3WQU",
+        "alt": "Community demo of the web part"
       }
     ],
     "authors": [
