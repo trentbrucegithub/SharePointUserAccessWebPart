@@ -6652,6 +6652,12 @@
         "pictureUrl": "https://github.com/waldekmastykarz.png",
         "name": "Waldek Mastykarz",
         "twitter": "waldekm"
+      },
+      {
+        "gitHubAccount": "AJIXuMuK",
+        "company": "Microsoft",
+        "pictureUrl": "https://github.com/AJIXuMuK.png",
+        "name": "Alex Terentiev"
       }
     ],
     "references": [
