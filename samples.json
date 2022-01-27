@@ -9,7 +9,7 @@
       "This web part demonstrates displaying the list of approval requests of Power Automate. Power Automate provides a new workflow feature that replaces SharePoint workflows, but it is a Power Platform feature, not a Microsoft 365 feature. You can display approval requests from only Power Automate site. This web part enable to display approval requests from SharePoint site."
     ],
     "creationDateTime": "2022-01-11",
-    "updateDateTime": "2022-01-11",
+    "updateDateTime": "2022-01-22",
     "products": [
       "SharePoint"
     ],
@@ -6616,7 +6616,7 @@
       "Sample custom property pane controls built in React for use with SharePoint Framework client-side web parts."
     ],
     "creationDateTime": "2017-05-01",
-    "updateDateTime": "2017-05-01",
+    "updateDateTime": "2026-01-22",
     "products": [
       "SharePoint",
       "Office"
@@ -6628,7 +6628,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "drop4"
+        "value": "1.14.0"
       }
     ],
     "thumbnails": [
@@ -6658,7 +6658,7 @@
       {
         "name": "Build your first SharePoint client-side web part",
         "description": "Client-side web parts are client-side components that run in the context of a SharePoint page. Client-side web parts can be deployed to SharePoint environments that support the SharePoint Framework. You can also use modern JavaScript web frameworks, tools, and libraries to build them.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part"
       }
     ]
   },
