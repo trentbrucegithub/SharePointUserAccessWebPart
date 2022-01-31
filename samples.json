@@ -5427,8 +5427,8 @@
     "longDescription": [
       "This Web Part allows you to manage events in a calendar. Uses a list of existing calendars on any website. The location and name of the list and the dates of the events to be displayed are defined in the properties of the web part."
     ],
-    "created": "2020-12-04",
-    "modified": "2021-12-21",
+    "creationDateTime":"2020-12-04",
+    "updateDateTime": "2021-12-21",
     "products": [
       "SharePoint"
     ],
@@ -6616,7 +6616,7 @@
       "Sample custom property pane controls built in React for use with SharePoint Framework client-side web parts."
     ],
     "creationDateTime": "2017-05-01",
-    "updateDateTime": "2026-01-22",
+    "updateDateTime": "2022-01-22",
     "products": [
       "SharePoint",
       "Office"
@@ -6652,12 +6652,6 @@
         "pictureUrl": "https://github.com/waldekmastykarz.png",
         "name": "Waldek Mastykarz",
         "twitter": "waldekm"
-      },
-      {
-        "gitHubAccount": "AJIXuMuK",
-        "company": "Microsoft",
-        "pictureUrl": "https://github.com/AJIXuMuK.png",
-        "name": "Alex Terentiev"
       }
     ],
     "references": [
